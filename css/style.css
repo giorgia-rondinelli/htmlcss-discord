@@ -279,7 +279,7 @@ header{
 
 
 .altro{
-  height: 600px;
+  height: 400px;
   background-color: rgb(35,39,42);
   padding-top: 10px;
 }
@@ -345,7 +345,7 @@ header{
 
 .fine{
   background-color: rgb(35,39,42);
-  height: 100px;
+  height: 200px;
   display: flex;
   align-items: stretch;
   padding-top: 20px;
