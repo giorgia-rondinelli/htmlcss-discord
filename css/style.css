@@ -88,24 +88,68 @@ ul{
 /* intestazione  */
 
 
-
+/* .jumbotron */
 
  .jumbotron{
-  background-color: blue;
-  height:380px;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  height:420px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  color: white;
 
   
  }
 .hero{
   height: 300px;
-  width: 650px;
-  background-color: lightpink;
-  border: 2px dashed black;
+  width: 600px;
 }
+
+.hero h1{
+  font-size: 40px;
+}
+.hero p{
+  font-weight: 500;
+  padding-top: 40px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.button-container{
+ padding-top: 20px;
+ 
+}
+
+.btn-scarica{
+  border: none;
+  border-radius: 20px;
+  padding-right: 15px;
+  font-size: 15px;
+  color: rgb(35,39,42);
+  
+  
+}
+
+.btn-scarica span{
+  display: inline-block;
+  padding:15px;
+  border: none;
+  
+}
+
+.btn-apri{
+  background-color: rgb(35,39,42);
+  color: white;
+  border-radius: 20px;
+  padding:15px;
+  border: none;
+  font-size: 15px;
+  margin-left: 15px;
+}
+/* jumbotron  */
 
 
 .sezione.uno.tre{
