@@ -63,7 +63,7 @@ header{
   align-items: center;
 }
 
-ul{
+.menu ul{
   list-style: none;
   display: flex;
  }
@@ -239,11 +239,9 @@ ul{
   background-size: cover;
   
 }
-.pronto{
-  height: 100px;
-  display: flex;
-  flex-direction: column;
-
+.pronto h3{
+  font-size: 23px;
+  margin-top: 20px;
 }
 .stelline{
   
@@ -267,6 +265,7 @@ ul{
 
 }
 
+/* contenuto principale */
 
 
 
@@ -276,12 +275,12 @@ ul{
 
 
 
-
+/* footer  */
 
 
 .altro{
   height: 600px;
-  background-color: darkslategray;
+  background-color: rgb(35,39,42);
   padding-top: 10px;
 }
 
@@ -292,19 +291,60 @@ ul{
 }
 
 .foot{
-  background-color: coral;
   width:34%;
-  border: 2px dashed black;
+  padding: 40px ;
+  
 }
+
+.foot h4{
+  font-size: 23px;
+  margin-bottom: 17px;
+  color: rgb(108,129,203);
+}
+.foot div{
+  color: white;
+  font-size: 13px;
+}
+
+.lingua{
+  margin-bottom: 12px;
+}
+.foot div img{
+  width: 20px;
+
+}
+  
+.social i{ 
+  padding: 5px;
+
+}
+
 .menu-footer{
-  background-color: lightseagreen;
+  
   width: 16.5%;
-  border: 2px dashed black;
+  padding-top: 40px;
+  
+}
+.menu-footer ul{
+  list-style: none;
+}
+
+.menu-footer ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+}
+
+.menu-footer ul li{
+  padding-top:10px;
+}
+.menu-footer div{
+  color: rgb(108,129,203);
+  font-size: 13px;
 }
 
 .fine{
-  margin-top: 3px;
-  background-color:darkslategray;
+  background-color: rgb(35,39,42);
   height: 100px;
   display: flex;
   align-items: stretch;
@@ -314,12 +354,19 @@ ul{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-top: 1px solid rgb(143,162,227);
  }
 
  .btn,.logo-finale{
-  background-color: springgreen;
   padding: 5px 8px;
-  border: 2px dashed black;
  }
+
+.btn-scarica button{
+  background-color: rgb(143,162,227);
+  color: white;
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+}
 
 
