@@ -1,0 +1,196 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif
+}
+
+
+
+/* intestazione  */
+header{
+  background-color:rgb(49,97,224);
+  height: 60px;
+  display: flex;
+  align-items: center;
+  
+}
+
+.container.intestazione{
+  background-color: rgb(49,97,224);
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  font-weight: 500;
+
+}
+
+.container{
+  background-color: lightcoral;
+  max-width: 900px;
+  margin: 0 auto;
+  width: 900px;
+}
+
+ .logo,.login{
+ 
+  width: 25%;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  
+}
+.logo{
+  justify-content: start;
+}
+
+.logo img{
+  height: 30px;
+
+}
+
+.login{
+  justify-content: end;
+}
+
+.menu{
+  width: 50%;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+ }
+
+.menu ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  padding: 15px;
+ 
+}
+
+.btn-accedi{
+  background-color: white;
+  border-radius: 15px;
+  border:none;
+  padding: 8px;
+ 
+  
+}
+/* intestazione  */
+
+
+
+
+ .jumbotron{
+  background-color: blue;
+  height:380px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+ }
+.hero{
+  height: 300px;
+  width: 650px;
+  background-color: lightpink;
+  border: 2px dashed black;
+}
+
+
+.sezione.uno.tre{
+  background-color: white;
+}
+.sezione{
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenuto{
+  height: 380px;
+  display: flex;
+}
+
+.immagine{
+  height: 380px;
+  background-color:dodgerblue ;
+  width: 60%;
+  border: 2px dashed black;
+}
+.testo{
+  width:40% ;
+  height: 380px;
+  background-color:crimson;
+  border: 2px dashed black;
+}
+
+.sezione.due{
+  background-color: rgb(211,211,211);
+}
+
+.sezione.quattro{
+  height:800px ;
+  background-color:rgb(211,211,211) ;
+}
+
+.grande{
+  background-color:rgb(64, 225, 64);
+  height: 700px;
+  border: 2px dashed black;
+}
+
+.altro{
+  height: 600px;
+  background-color: darkslategray;
+  padding-top: 10px;
+}
+
+.opzioni{
+  height: 550px;
+  display:flex;
+  justify-content: space-between;
+}
+
+.foot{
+  background-color: coral;
+  width:34%;
+  border: 2px dashed black;
+}
+.menu-footer{
+  background-color: lightseagreen;
+  width: 16.5%;
+  border: 2px dashed black;
+}
+
+.fine{
+  margin-top: 3px;
+  background-color:darkslategray;
+  height: 100px;
+  display: flex;
+  align-items: stretch;
+  padding-top: 20px;
+}
+.finale{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+
+ .btn,.logo-finale{
+  background-color: springgreen;
+  padding: 5px 8px;
+  border: 2px dashed black;
+ }
+
+
